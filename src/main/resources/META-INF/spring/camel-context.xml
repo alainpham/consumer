@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configures the Camel Context-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       ">
+
+    <context:component-scan base-package="techlab" />
+
+    <bean class="org.apache.camel.spring.spi.BridgePropertyPlaceholderConfigurer"
+          id="props">
+        <property name="ignoreResourceNotFound" value="true" />
+        <property name="locations">
+            <list>
+                <value>classpath:application.properties</value>
+                <value>file:application.properties</value>
+                <value>file:${karaf.home}/etc/application.properties</value>
+                <value>file:etc/application.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- AMQ Openwire connection infos -->
+    <bean class="org.apache.activemq.ActiveMQConnectionFactory" id="jmsOwConnectionFactory" >
+        <property name="brokerURL" value="${brokerUrl}"/>
+        <property name="userName" value="${brokerUsr}"/>
+        <property name="password" value="{brokerPwd}"/>
+        <property name="alwaysSyncSend" value="true" />
+    </bean>
+
+    <bean class="org.apache.activemq.pool.PooledConnectionFactory"
+          destroy-method="stop" id="pooledConnectionFactory"
+          init-method="start">
+        <property name="maxConnections" value="1"/>
+        <property name="connectionFactory" ref="jmsOwConnectionFactory"/>
+    </bean>
+
+    <bean class="org.apache.camel.component.jms.JmsConfiguration" id="jmsOwConfig">
+        <property name="connectionFactory" ref="pooledConnectionFactory"/>
+        <property name="lazyCreateTransactionManager" value="false" />
+        <property name="transacted" value="true" />
+        <property name="concurrentConsumers" value="1" />
+        <property name="cacheLevelName" value="CACHE_CONSUMER" />
+    </bean>
+
+    <bean class="org.apache.activemq.camel.component.ActiveMQComponent" id="activemq">
+        <property name="configuration" ref="jmsOwConfig"/>
+    </bean>
+
+    <camelContext id="consumer" xmlns="http://camel.apache.org/schema/spring">
+        <route id="consume-events">
+            <from uri="activemq:queue:app.events"/>
+            <onCompletion onFailureOnly="true">
+                <log message="Message processing failed."/>
+            </onCompletion>
+            <delay >
+                <constant>1</constant>
+            </delay>
+            <bean method="increment" ref="counter" />
+            <setBody >
+                <method bean="counter" method="getMsgCount()" />
+            </setBody>
+            <log message="consumed : ${body}" />
+            <log message="${headers}"/>
+        </route>
+
+        <route id="alive-pinger">
+            <from uri="timer:alive-pinger?period=5000" />
+            <setBody >
+                <method bean="counter" method="getMsgCount()" />
+            </setBody>
+            <log message="Hello I'm alive.. consumed messages : ${body}" />
+        </route>
+
+    </camelContext>
+
+</beans>
