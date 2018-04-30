@@ -74,7 +74,7 @@
             <setBody >
                 <method bean="counter" method="getMsgCount()" />
             </setBody>
-            <log message="Hello I'm alive.. consumed messages : ${body}" />
+            <log message="V2 Hello I'm alive.. consumed messages : ${body}" />
         </route>
 
     </camelContext>
