@@ -70,7 +70,7 @@
         </route>
 
         <route id="alive-pinger">
-            <from uri="timer:alive-pinger?period=5000" />
+            <from uri="timer:alive-pinger?=5000" />
             <setBody >
                 <method bean="counter" method="getMsgCount()" />
             </setBody>

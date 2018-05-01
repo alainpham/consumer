@@ -1,0 +1,240 @@
+Setting client pid to {0}
+SERVER: changeConfig: settings -> {0}
+didOpen: {0}
+didOpen: {0}
+hover: TextDocumentIdentifier [
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+hover: TextDocumentIdentifier [
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+hover: TextDocumentIdentifier [
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+completion: file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml
+resolveCompletionItem: null
+hover: TextDocumentIdentifier [
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+hover: TextDocumentIdentifier [
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 2
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+completion: file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml
+completion: file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml
+didChange: VersionedTextDocumentIdentifier [
+  version = 3
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 4
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+completion: file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml
+completion: file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml
+didChange: VersionedTextDocumentIdentifier [
+  version = 5
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+hover: TextDocumentIdentifier [
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+hover: TextDocumentIdentifier [
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+completion: file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml
+didChange: VersionedTextDocumentIdentifier [
+  version = 6
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 11
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 12
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 13
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+completion: file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 14
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 15
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+completion: file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 16
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 17
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 34
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+completion: file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 35
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 36
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 37
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 38
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 39
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 40
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+resolveCompletionItem: null
+hover: TextDocumentIdentifier [
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+hover: TextDocumentIdentifier [
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+completion: file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 41
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 42
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 43
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 44
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 45
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 46
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+completion: file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml
+resolveCompletionItem: null
+resolveCompletionItem: null
+resolveCompletionItem: null
+didChange: VersionedTextDocumentIdentifier [
+  version = 47
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 48
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 49
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 50
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+hover: TextDocumentIdentifier [
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 54
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 57
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 60
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 79
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 80
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 81
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 82
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 83
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 88
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 88
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didSave: TextDocumentIdentifier [
+  uri = "file:///home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml"
+]
+didClose: TextDocumentIdentifier [
+  uri = "git:/home/workdrive/TAZONE/WORKSPACES/techlabs/techlab-fuse-amq-7-ha/consumer/src/main/resources/META-INF/spring/camel-context.xml.git?%7B%22path%22%3A%22%2Fhome%2Fworkdrive%2FTAZONE%2FWORKSPACES%2Ftechlabs%2Ftechlab-fuse-amq-7-ha%2Fconsumer%2Fsrc%2Fmain%2Fresources%2FMETA-INF%2Fspring%2Fcamel-context.xml%22%2C%22ref%22%3A%22%22%7D"
+]
+Shutting down language server
+Stopping language server
